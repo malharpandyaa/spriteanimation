@@ -71,19 +71,19 @@ function setup() {
 function draw() {
   background(0);
 
-  if (kb.pressing('d')) {
+  if (kb.pressing(LEFT_ARROW)) {
     character1.walkRight();
     character2.walkRight();
     character3.walkRight();
-  } else if (kb.pressing('a')) {
+  } else if (kb.pressing(RIGHT_ARROW)) {
     character1.walkLeft();
     character2.walkLeft();
     character3.walkLeft();
-  } else if (kb.pressing('w')) {
+  } else if (kb.pressing(UP_ARROW)) {
     character1.walkUp();
     character2.walkUp();
     character3.walkUp();
-  } else if (kb.pressing('s')) {
+  } else if (kb.pressing(DOWN_ARROW)) {
     character1.walkDown();
     character2.walkDown();
     character3.walkDown();
