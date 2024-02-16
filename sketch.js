@@ -71,11 +71,11 @@ function setup() {
 function draw() {
   background(0);
 
-  if (kb.pressing(LEFT_ARROW)) {
+  if (kb.pressing(RIGHT_ARROW)) {
     character1.walkRight();
     character2.walkRight();
     character3.walkRight();
-  } else if (kb.pressing(RIGHT_ARROW)) {
+  } else if (kb.pressing(LEFT_ARROW)) {
     character1.walkLeft();
     character2.walkLeft();
     character3.walkLeft();
