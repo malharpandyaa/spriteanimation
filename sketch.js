@@ -29,15 +29,15 @@ class Character {
 
   walkRight() {
     this.sprite.changeAni('walkRight');
-    this.sprite.vel.x = 1;
-    this.sprite.scale.x = 1;
+    this.sprite.vel.x = -1;
+    this.sprite.scale.x = -1;
     this.sprite.vel.y = 0;
   }
 
   walkLeft() {
     this.sprite.changeAni('walkRight');
-    this.sprite.vel.x = -1;
-    this.sprite.scale.x = -1;
+    this.sprite.vel.x = 1;
+    this.sprite.scale.x = 1;
     this.sprite.vel.y = 0;
   }
 
