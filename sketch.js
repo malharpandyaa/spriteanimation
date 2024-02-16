@@ -9,7 +9,7 @@ class Character {
       walkUp: {row: 5, frames: 6},
       walkDown: {row: 5, col: 6, frames: 6}
     };
-    this.sprite.anis.frameDelay = 4;
+    this.sprite.anis.frameDelay = 8;
     this.sprite.addAnis(animations);
   }
 
